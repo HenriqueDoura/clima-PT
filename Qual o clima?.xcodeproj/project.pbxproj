@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		699C58951C3CCB5600B977EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C58941C3CCB5600B977EF /* AppDelegate.swift */; };
+		699C58971C3CCB5600B977EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C58961C3CCB5600B977EF /* ViewController.swift */; };
+		699C589A1C3CCB5600B977EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699C58981C3CCB5600B977EF /* Main.storyboard */; };
+		699C589C1C3CCB5600B977EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699C589B1C3CCB5600B977EF /* Assets.xcassets */; };
+		699C589F1C3CCB5600B977EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699C589D1C3CCB5600B977EF /* LaunchScreen.storyboard */; };
+		699C58AA1C3CCB5700B977EF /* Qual_o_clima_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C58A91C3CCB5700B977EF /* Qual_o_clima_Tests.swift */; };
+		699C58B51C3CCB5700B977EF /* Qual_o_clima_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C58B41C3CCB5700B977EF /* Qual_o_clima_UITests.swift */; };
+		699C58C31C3CCE0D00B977EF /* Malaysia-evening-landscape-lights-palm-trees-sunset-sky-clouds-water-blue-style_1920x1200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 699C58C21C3CCE0D00B977EF /* Malaysia-evening-landscape-lights-palm-trees-sunset-sky-clouds-water-blue-style_1920x1200.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		699C58A61C3CCB5700B977EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 699C58891C3CCB5500B977EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699C58901C3CCB5600B977EF;
+			remoteInfo = "Qual o clima?";
+		};
+		699C58B11C3CCB5700B977EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 699C58891C3CCB5500B977EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699C58901C3CCB5600B977EF;
+			remoteInfo = "Qual o clima?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		699C58911C3CCB5600B977EF /* Qual o clima?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qual o clima?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699C58941C3CCB5600B977EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		699C58961C3CCB5600B977EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		699C58991C3CCB5600B977EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		699C589B1C3CCB5600B977EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		699C589E1C3CCB5600B977EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		699C58A01C3CCB5600B977EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699C58A51C3CCB5700B977EF /* Qual o clima?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qual o clima?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699C58A91C3CCB5700B977EF /* Qual_o_clima_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qual_o_clima_Tests.swift; sourceTree = "<group>"; };
+		699C58AB1C3CCB5700B977EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699C58B01C3CCB5700B977EF /* Qual o clima?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qual o clima?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699C58B41C3CCB5700B977EF /* Qual_o_clima_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qual_o_clima_UITests.swift; sourceTree = "<group>"; };
+		699C58B61C3CCB5700B977EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699C58C21C3CCE0D00B977EF /* Malaysia-evening-landscape-lights-palm-trees-sunset-sky-clouds-water-blue-style_1920x1200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Malaysia-evening-landscape-lights-palm-trees-sunset-sky-clouds-water-blue-style_1920x1200.jpg"; path = "../../Malaysia-evening-landscape-lights-palm-trees-sunset-sky-clouds-water-blue-style_1920x1200.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		699C588E1C3CCB5600B977EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699C58A21C3CCB5700B977EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699C58AD1C3CCB5700B977EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		699C58881C3CCB5500B977EF = {
+			isa = PBXGroup;
+			children = (
+				699C58931C3CCB5600B977EF /* Qual o clima? */,
+				699C58A81C3CCB5700B977EF /* Qual o clima?Tests */,
+				699C58B31C3CCB5700B977EF /* Qual o clima?UITests */,
+				699C58921C3CCB5600B977EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		699C58921C3CCB5600B977EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				699C58911C3CCB5600B977EF /* Qual o clima?.app */,
+				699C58A51C3CCB5700B977EF /* Qual o clima?Tests.xctest */,
+				699C58B01C3CCB5700B977EF /* Qual o clima?UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		699C58931C3CCB5600B977EF /* Qual o clima? */ = {
+			isa = PBXGroup;
+			children = (
+				699C58941C3CCB5600B977EF /* AppDelegate.swift */,
+				699C58961C3CCB5600B977EF /* ViewController.swift */,
+				699C58981C3CCB5600B977EF /* Main.storyboard */,
+				699C58C21C3CCE0D00B977EF /* Malaysia-evening-landscape-lights-palm-trees-sunset-sky-clouds-water-blue-style_1920x1200.jpg */,
+				699C589B1C3CCB5600B977EF /* Assets.xcassets */,
+				699C589D1C3CCB5600B977EF /* LaunchScreen.storyboard */,
+				699C58A01C3CCB5600B977EF /* Info.plist */,
+			);
+			path = "Qual o clima?";
+			sourceTree = "<group>";
+		};
+		699C58A81C3CCB5700B977EF /* Qual o clima?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				699C58A91C3CCB5700B977EF /* Qual_o_clima_Tests.swift */,
+				699C58AB1C3CCB5700B977EF /* Info.plist */,
+			);
+			path = "Qual o clima?Tests";
+			sourceTree = "<group>";
+		};
+		699C58B31C3CCB5700B977EF /* Qual o clima?UITests */ = {
+			isa = PBXGroup;
+			children = (
+				699C58B41C3CCB5700B977EF /* Qual_o_clima_UITests.swift */,
+				699C58B61C3CCB5700B977EF /* Info.plist */,
+			);
+			path = "Qual o clima?UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		699C58901C3CCB5600B977EF /* Qual o clima? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699C58B91C3CCB5700B977EF /* Build configuration list for PBXNativeTarget "Qual o clima?" */;
+			buildPhases = (
+				699C588D1C3CCB5600B977EF /* Sources */,
+				699C588E1C3CCB5600B977EF /* Frameworks */,
+				699C588F1C3CCB5600B977EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Qual o clima?";
+			productName = "Qual o clima?";
+			productReference = 699C58911C3CCB5600B977EF /* Qual o clima?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		699C58A41C3CCB5700B977EF /* Qual o clima?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699C58BC1C3CCB5700B977EF /* Build configuration list for PBXNativeTarget "Qual o clima?Tests" */;
+			buildPhases = (
+				699C58A11C3CCB5700B977EF /* Sources */,
+				699C58A21C3CCB5700B977EF /* Frameworks */,
+				699C58A31C3CCB5700B977EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				699C58A71C3CCB5700B977EF /* PBXTargetDependency */,
+			);
+			name = "Qual o clima?Tests";
+			productName = "Qual o clima?Tests";
+			productReference = 699C58A51C3CCB5700B977EF /* Qual o clima?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		699C58AF1C3CCB5700B977EF /* Qual o clima?UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699C58BF1C3CCB5700B977EF /* Build configuration list for PBXNativeTarget "Qual o clima?UITests" */;
+			buildPhases = (
+				699C58AC1C3CCB5700B977EF /* Sources */,
+				699C58AD1C3CCB5700B977EF /* Frameworks */,
+				699C58AE1C3CCB5700B977EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				699C58B21C3CCB5700B977EF /* PBXTargetDependency */,
+			);
+			name = "Qual o clima?UITests";
+			productName = "Qual o clima?UITests";
+			productReference = 699C58B01C3CCB5700B977EF /* Qual o clima?UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		699C58891C3CCB5500B977EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Henrique Dev";
+				TargetAttributes = {
+					699C58901C3CCB5600B977EF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = T92VRCC8V8;
+					};
+					699C58A41C3CCB5700B977EF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = T92VRCC8V8;
+						TestTargetID = 699C58901C3CCB5600B977EF;
+					};
+					699C58AF1C3CCB5700B977EF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = T92VRCC8V8;
+						TestTargetID = 699C58901C3CCB5600B977EF;
+					};
+				};
+			};
+			buildConfigurationList = 699C588C1C3CCB5500B977EF /* Build configuration list for PBXProject "Qual o clima?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 699C58881C3CCB5500B977EF;
+			productRefGroup = 699C58921C3CCB5600B977EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				699C58901C3CCB5600B977EF /* Qual o clima? */,
+				699C58A41C3CCB5700B977EF /* Qual o clima?Tests */,
+				699C58AF1C3CCB5700B977EF /* Qual o clima?UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		699C588F1C3CCB5600B977EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699C58C31C3CCE0D00B977EF /* Malaysia-evening-landscape-lights-palm-trees-sunset-sky-clouds-water-blue-style_1920x1200.jpg in Resources */,
+				699C589F1C3CCB5600B977EF /* LaunchScreen.storyboard in Resources */,
+				699C589C1C3CCB5600B977EF /* Assets.xcassets in Resources */,
+				699C589A1C3CCB5600B977EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699C58A31C3CCB5700B977EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699C58AE1C3CCB5700B977EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		699C588D1C3CCB5600B977EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699C58971C3CCB5600B977EF /* ViewController.swift in Sources */,
+				699C58951C3CCB5600B977EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699C58A11C3CCB5700B977EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699C58AA1C3CCB5700B977EF /* Qual_o_clima_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699C58AC1C3CCB5700B977EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699C58B51C3CCB5700B977EF /* Qual_o_clima_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		699C58A71C3CCB5700B977EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 699C58901C3CCB5600B977EF /* Qual o clima? */;
+			targetProxy = 699C58A61C3CCB5700B977EF /* PBXContainerItemProxy */;
+		};
+		699C58B21C3CCB5700B977EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 699C58901C3CCB5600B977EF /* Qual o clima? */;
+			targetProxy = 699C58B11C3CCB5700B977EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		699C58981C3CCB5600B977EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				699C58991C3CCB5600B977EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		699C589D1C3CCB5600B977EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				699C589E1C3CCB5600B977EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		699C58B71C3CCB5700B977EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		699C58B81C3CCB5700B977EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		699C58BA1C3CCB5700B977EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Qual o clima?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HenriqueDev.Qual-o-clima-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		699C58BB1C3CCB5700B977EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Qual o clima?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HenriqueDev.Qual-o-clima-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		699C58BD1C3CCB5700B977EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Qual o clima?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HenriqueDev.Qual-o-clima-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qual o clima?.app/Qual o clima?";
+			};
+			name = Debug;
+		};
+		699C58BE1C3CCB5700B977EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Qual o clima?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HenriqueDev.Qual-o-clima-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qual o clima?.app/Qual o clima?";
+			};
+			name = Release;
+		};
+		699C58C01C3CCB5700B977EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Qual o clima?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HenriqueDev.Qual-o-clima-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Qual o clima?";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		699C58C11C3CCB5700B977EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Qual o clima?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HenriqueDev.Qual-o-clima-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Qual o clima?";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		699C588C1C3CCB5500B977EF /* Build configuration list for PBXProject "Qual o clima?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699C58B71C3CCB5700B977EF /* Debug */,
+				699C58B81C3CCB5700B977EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699C58B91C3CCB5700B977EF /* Build configuration list for PBXNativeTarget "Qual o clima?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699C58BA1C3CCB5700B977EF /* Debug */,
+				699C58BB1C3CCB5700B977EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		699C58BC1C3CCB5700B977EF /* Build configuration list for PBXNativeTarget "Qual o clima?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699C58BD1C3CCB5700B977EF /* Debug */,
+				699C58BE1C3CCB5700B977EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		699C58BF1C3CCB5700B977EF /* Build configuration list for PBXNativeTarget "Qual o clima?UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699C58C01C3CCB5700B977EF /* Debug */,
+				699C58C11C3CCB5700B977EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 699C58891C3CCB5500B977EF /* Project object */;
+}

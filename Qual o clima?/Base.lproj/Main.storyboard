@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Qual_o_clima_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Malaysia-evening-landscape-lights-palm-trees-sunset-sky-clouds-water-blue-style_1920x1200.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yxs-WR-IaL">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Qual é o clima?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jT-MA-onz">
+                                <rect key="frame" x="130" y="76" width="341" height="59"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="0Kc-jt-7Bs"/>
+                                    <constraint firstAttribute="width" constant="341" id="ELX-XB-Pr6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preencha com uma cidade..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTo-I3-RlI">
+                                <rect key="frame" x="186" y="143" width="228" height="28"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="228" id="9G4-7q-kdn"/>
+                                    <constraint firstAttribute="height" constant="28" id="eBt-1b-fIb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: London" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vvn-sq-LWy">
+                                <rect key="frame" x="130" y="198" width="341" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="t47-ff-KYe"/>
+                                    <constraint firstAttribute="width" constant="341" id="tSf-on-Rzo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qjd-hu-887">
+                                <rect key="frame" x="236" y="249" width="129" height="31"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="BSC-pH-iUS"/>
+                                    <constraint firstAttribute="width" constant="129" id="GXb-L4-3JE"/>
+                                </constraints>
+                                <state key="normal" title="Qual o clima?">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="findWeatherButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Nj-re-9Fx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSa-Un-faA">
+                                <rect key="frame" x="130" y="334" width="341" height="135"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.70176750886524819" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="oVc-bQ-6H0"/>
+                                    <constraint firstAttribute="width" constant="341" id="qKE-RC-EpK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="yxs-WR-IaL" secondAttribute="trailing" constant="-20" id="1Ya-7J-eBl"/>
+                            <constraint firstItem="2jT-MA-onz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="979-f3-cvO"/>
+                            <constraint firstItem="Qjd-hu-887" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AUJ-f5-Y2r"/>
+                            <constraint firstItem="vvn-sq-LWy" firstAttribute="top" secondItem="JTo-I3-RlI" secondAttribute="bottom" constant="27" id="CgK-e4-g2T"/>
+                            <constraint firstItem="2jT-MA-onz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="56" id="Dlk-Sn-dQd"/>
+                            <constraint firstItem="yxs-WR-IaL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="EmO-mh-NcN"/>
+                            <constraint firstItem="JTo-I3-RlI" firstAttribute="top" secondItem="2jT-MA-onz" secondAttribute="bottom" constant="8" id="F6D-f9-rWQ"/>
+                            <constraint firstItem="vvn-sq-LWy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kkh-HF-b1H"/>
+                            <constraint firstItem="Qjd-hu-887" firstAttribute="top" secondItem="vvn-sq-LWy" secondAttribute="bottom" constant="21" id="TjM-iA-h8h"/>
+                            <constraint firstItem="JTo-I3-RlI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WmD-HC-yVE"/>
+                            <constraint firstItem="fSa-Un-faA" firstAttribute="top" secondItem="Qjd-hu-887" secondAttribute="bottom" constant="54" id="hvT-3C-tjI"/>
+                            <constraint firstItem="yxs-WR-IaL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="icR-VM-FiU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yxs-WR-IaL" secondAttribute="bottom" id="noL-vW-rRl"/>
+                            <constraint firstItem="fSa-Un-faA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r2q-SZ-epU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cityTextField" destination="vvn-sq-LWy" id="yY3-JA-14J"/>
+                        <outlet property="resultLabel" destination="fSa-Un-faA" id="rUx-la-XRP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="311"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Malaysia-evening-landscape-lights-palm-trees-sunset-sky-clouds-water-blue-style_1920x1200.jpg" width="1920" height="1200"/>
+    </resources>
+</document>
